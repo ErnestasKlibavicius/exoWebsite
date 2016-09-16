@@ -1,0 +1,1621 @@
+/* ==========================================================================
+   RESPONSIVE STYLES
+ ========================================================================== */ 
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media (max-width: 1199px) {
+
+    /*------------------------------------------*/
+    /*    General Fixes
+    /*------------------------------------------*/
+    .btn{
+        margin-bottom: 10px;
+    }
+
+    /*------------------------------------------*/
+    /*    Overlay
+    /*------------------------------------------*/
+    .header .overlay{
+        height: 650px;
+    }
+
+    /*------------------------------------------*/
+    /*   Showcase Video Button
+    /*------------------------------------------*/
+    .showcase .video-player{
+        left: 53%;
+    }
+
+    /*------------------------------------------*/
+    /*   Charts
+    /*------------------------------------------*/
+    #canvas-holder{
+        left:18%;
+    }
+
+    #canvas2-holder{
+        display:none;
+    }
+
+    .signup-handwritten {
+        right: -30px;
+    }
+
+    .doughnut-box {
+        margin-bottom: 146px;
+    }
+
+    /*------------------------------------------*/
+    /*   Newsletter
+    /*------------------------------------------*/
+    .newsletter .getnewsletter{
+        width: 120px;
+    }
+    
+    /*------------------------------------------*/
+    /*   Footer
+    /*------------------------------------------*/
+    .footer-cta .btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /*------------------------------------------*/
+    /*   Header App
+    /*------------------------------------------*/
+    .hero-app .hero-section{
+        padding-top: 10%;
+    }
+    
+    h3.teamname{
+        font-size:22px;
+    }
+    
+    p.teaminfo{
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    .headerLogo{
+        width: 320px;
+        margin-bottom: 20px;
+    }
+    
+    h1.mainhead {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    
+    .mainsubhead{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .mainheaddate{
+        font-size: 26px;
+    }
+    
+    
+	
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media (min-width: 992px) {
+
+    /*-------------------------------------------------------------*/
+    /*    Set Container Width at 970 also for Large Devices Desktop
+    /*-------------------------------------------------------------*/
+    .container .grid-md{
+        margin:0 auto;
+        width: 970px;
+    }
+
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media (max-width: 991px) {
+
+    /*-----------------------------------------------------------*/
+    /*    Show Navbar Toggle and Hide Navbar Menu, Bootstrap Fixes
+    /*-----------------------------------------------------------*/
+    .navbar-fixed-top {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .menu-li{
+        padding-top: 7px;
+    }
+    
+    .col-sm-4.intro-content {
+    text-align: left;
+}
+    
+    .jobtitle{
+        font-size: 10px;
+        line-height: 11px;
+    }
+        
+.benetext{
+    font-size: 16px;
+}
+    
+    p.testimonial-text {
+    padding-bottom: 20px;
+}
+    
+    .tab-content p{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    
+    .pb-features{
+        padding: 10px;
+    }
+    
+    .tab-features .tab-content {
+    padding-top: 20px;
+    height:500px;
+    }
+        
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: none;
+    }
+    
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    .navbar-collapse.collapse.in {  
+        display: block!important; 
+        overflow: hidden;
+    }
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+        display: inline-flex;
+    }
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display:inline-block;
+    }
+
+    .navbar-nav>li>a.btn-nav {
+        margin: 3px 0 5px 15px;
+        padding: 5px;
+    }
+
+    /*------------------------------------------*/
+    /*    Header Overlay and Hero Section
+    /*------------------------------------------*/
+    .header .overlay{
+        height: 580px;
+    }
+
+    /*------------------------------------------*/
+    /*   Image with Action
+    /*------------------------------------------*/
+    .img-with-action{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /*------------------------------------------*/
+    /*   Features Tab
+    /*------------------------------------------*/
+    .tab-features .large{
+        margin-bottom: 50px;
+    }
+
+    .tab-features .etabs {
+        overflow: hidden;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+        text-align: left;
+        max-width: 100%;
+        background-color: #77b1ce;
+        float: left;
+    }
+
+    .tab-features .etabs .tab {
+        display: table;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border-bottom: 1px solid #ffffff;
+        padding: 1% 0;
+        border-right: 0;
+        opacity: 1;
+    }
+
+    .tab-features .etabs .tab:first-child {
+        border-top: 1px solid #ffffff;
+    }
+
+    .tab-features .etabs .large {
+        margin-bottom: 50px;
+    }
+
+    .tab-features .etabs .icon-sm {
+        padding-left: 15px;
+        width: 80px;
+    }
+
+    .tab-features .etabs .tab.active {
+        background-color: #ffffff;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+    .tab-features .etabs .tab.active h5, .tab-features .etabs .tab.active .icon-sm i{
+        color: #3e3e3e;
+    }
+
+    .tab-features .etabs .tab.active:before {
+        display: none;
+    }
+
+    .tab-features .etabs h5{
+        display: inline-block;
+        padding-left: 15px;
+        font-size: 11px;
+    }
+
+    .tab-icon .large{
+        margin-bottom: 10px;
+    }
+    
+    .fellowwidth {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin-top: 0px;
+}
+    
+    p.fellow-bio{
+        color: #727272;
+    }
+    
+    h3.fellow-name{
+        color: #727272;
+    }
+    
+    .btn-streams{
+        padding: 20px 20px 30px 20px;
+    }
+
+    /*------------------------------------------*/
+    /*   Testimonials
+    /*------------------------------------------*/
+    .testimonial-press .etabs{
+        display:none;
+    }
+    
+    /*------------------------------------------*/
+    /*   Newsletter
+    /*------------------------------------------*/
+    .newsletter .table{
+        margin-top: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .newsletter .table:last-child{
+        margin-bottom: 10px;
+    }
+
+    .newsletter .table-row{
+        display:block;
+    }
+
+    .newsletter .table-cell{
+        width: 100%;
+        display:block;
+        padding-bottom: 10px;
+    }
+
+    .newsletter .social-list>li{
+        display: inline-block;
+        float: none;
+    }
+
+    .newsletter .input-group{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    /*------------------------------------------*/
+    /*   Charts
+    /*------------------------------------------*/
+    #canvas-holder{
+        display:none;
+    }
+
+    .line-canvas{
+        margin:0 auto;
+        width:70%;
+    }
+
+    .charts p.large{
+        margin-bottom: 50px;
+    }
+
+    .doughnut-box {
+        margin-bottom: 70px;
+    }
+
+    /*------------------------------------------*/
+    /*    Sign-Up Divider
+    /*------------------------------------------*/
+    .signup-handwritten {
+        right: 9px;
+        bottom: -200px;
+        -moz-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    .signup-handwritten:before{
+        left: 75px;
+        top: -48px;
+        -moz-transform: rotate(105deg);
+        -o-transform: rotate(105deg);
+        -ms-transform: rotate(105deg);
+        -webkit-transform: rotate(105deg);
+        transform: rotate(105deg);
+    }
+
+    .signup-divider .form-group{
+        width: 30%;
+    }
+
+    /*------------------------------------------*/
+    /*    Pricing
+    /*------------------------------------------*/
+    .pricing-tab {
+        padding: 50px 27px 30px;
+    }
+
+    .pricing-tab h4 {
+        margin: 0 0 30px;
+    }
+
+    /*------------------------------------------*/
+    /*    Team
+    /*------------------------------------------*/
+    .team-img .img-icons span i{
+        text-align: center;
+        font-size: 35px;
+        width: 35px;
+        height: 35px;
+        padding: 20% 5%;
+    }
+    
+    /*------------------------------------------*/
+    /*    Mobile-Download
+    /*------------------------------------------*/
+    .mobile-download .right-features {
+        margin-top: 70px;
+    }
+
+    /*------------------------------------------*/
+    /*   Footer
+    /*------------------------------------------*/
+    .footer {
+        text-align: center;
+    }
+
+    .footer .footer-nav li:first-of-type{
+        margin-left:0;
+    }
+
+    .footer-copy{
+        margin-top:20px;
+    }
+
+    .footer-nav{
+        margin-top: 75px;
+    }
+
+    .footer h5 {
+        margin-top: 60px;
+    }
+
+    /*------------------------------------------*/
+    /*   Header App
+    /*------------------------------------------*/
+    .hero-app .hero-section{
+        padding-top: 0;
+    }
+
+    .hero-app .hero-section .btn-box{
+        display: none;
+    }
+
+    /*------------------------------------------*/
+    /*   Header Dashboard
+    /*------------------------------------------*/
+    .dashboard .hero-section{
+        padding-top:20%;
+    }
+    
+    h3.teamname{
+        font-size:22px;
+    }
+    
+    p.teaminfo{
+        font-size: 18px;
+        margin-top: -10px;
+    }
+    
+    .threebene{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+        li.yes-list {
+        font-size: 18px;
+}
+    
+    li.more-list {
+        font-size: 18px;
+}
+    
+
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media (max-width: 767px) {
+    
+    /*----------------------------------------------------------------------*/
+    /*    IMPORTANT!!! DISABLE WOW ANIMATION ON SMALL SCREENS (<768px)
+    /*-----------------------------------------------------------------------*/
+    .wow {
+      visibility: visible !important;
+      -webkit-animation: none !important;
+         -moz-animation: none !important;
+           -o-animation: none !important;
+          -ms-animation: none !important;
+              animation: none !important;
+    }
+    
+    img.headerLogo {
+        width: 230px;
+        padding-top: 60px;
+        margin-bottom:20px; 
+        text-align: left;
+    }
+    
+    mainsubhead{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .ownstar{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .epilogue{
+        font-size: 11px;
+    }
+    
+    .flags{
+        display: none;
+    }
+
+    .fellow-photo {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5px;
+        padding-top: 40px;
+}
+    h3.fellow-name{
+        text-align: left;
+    }
+    /*------------------------------------------*/
+    /*    Typography
+    /*------------------------------------------*/
+    h2 {
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    .mainhead {
+     font-size:50px;   
+    }
+    
+    .threebene {
+    text-align: left;
+        padding-bottom: 0px;
+}
+    
+    .subheadabove{
+        text-align: left;  
+        padding-left: 10px;
+    }
+    
+    .subheadbelow{
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    h2.price-number{
+        text-align: center;
+    }
+
+    h2.price-subhead{
+        text-align: center;
+    }
+    
+    .large {
+        text-align: left;
+    }
+
+    
+    /*------------------------------------------*/
+    /*   About - Intro Features
+    /*------------------------------------------*/
+    .intro-features{
+        text-align: left;
+    }
+
+    .intro-features .intro-content{
+        margin-bottom: 50px;
+    }
+
+    .intro-features .intro-content:last-child{
+        margin-bottom: 0;
+    }
+
+    .intro-content .icon-lg{
+        display:inline-block;
+        margin-bottom: 20px;
+        width: 90px;
+    }
+
+    .intro-content h4{
+        display: inline-block;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .hover_caption_caption {
+        font-size:14px !important;
+    }
+
+    /*------------------------------------------*/
+    /*  Features Tab
+    /*------------------------------------------*/
+    .tab-features .tab-content {
+        padding-top: 20px;
+        height: 500px;
+        padding-top: 20px;
+        overflow: scroll;
+    }
+
+    /*------------------------------------------*/
+    /*   Newsletter
+    /*------------------------------------------*/
+    .newsletter .input-group{
+        width: 80%;
+        margin: 0;
+    }
+
+    .newsletter .table {
+        text-align: left;
+    }
+    
+    /*------------------------------------------*/
+    /*   Signup-Divider
+    /*------------------------------------------*/
+    .signup-handwritten {
+        display:none;
+    }
+
+    /*------------------------------------------*/
+    /*    Pricing
+    /*------------------------------------------*/
+    .pricing-tab {
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .pricing .large {
+        margin-bottom: 0;
+    }
+
+    /*------------------------------------------*/
+    /*    Team
+    /*------------------------------------------*/
+    .team .team-box{
+        margin-bottom: 50px;
+    }
+
+    .team h4{
+        margin-bottom: 10px;
+    }
+
+    .team .team-img{
+        width: 30%;
+        float: left;
+        clear:both;
+        margin-top:0;
+        margin-right: 10px;
+    }
+
+    .team .team-bio {
+        border-bottom: 1px solid transparent;
+    }
+
+    .team .team-url{
+        display: none;
+    }
+
+    /*------------------------------------------*/
+    /*    Mobile-Download
+    /*------------------------------------------*/
+    .mobile-download h3 {
+        margin-top: 0;
+    }
+
+    .mobile-download .shot-container{
+        display:none;
+    }
+
+    .mobile-download .right-features {
+        display:none;
+    }
+
+    /*------------------------------------------*/
+    /*    Footer
+    /*------------------------------------------*/
+    .footer{
+        text-align: left;
+    }
+
+    .footer-nav{
+        display:none
+    }
+
+    .footer-copy {
+        margin-top: 35px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .tweet ul {
+        padding-left: 15px;
+    }
+
+    /*------------------------------------------*/
+    /*    Fast-reg Fixes
+    /*------------------------------------------*/
+    .fast-reg .form-group{
+        width: 35%;
+        margin-bottom: 15px;
+    }
+
+    /*------------------------------------------*/
+    /*   Header App
+    /*------------------------------------------*/
+    .hero-app .hero-section .btn-box{
+        display: block;
+    }
+
+    .hero-app .hero-section .btn{
+        margin-top: 5px;
+    }
+    
+    .mainsubhead {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    
+
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media (max-width: 599px) {
+
+    /*------------------------------------------*/
+    /*   Typography
+    /*------------------------------------------*/
+    h1{
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    h2{
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    h3{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    
+    
+    img.headerLogo {
+        width: 230px;
+        padding-top: 60px;
+        margin-bottom:20px; 
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .general-description {
+    padding-bottom: 10px;
+}
+    
+    .threebene{
+        padding-bottom:0px;
+    }
+    
+    .hero-section {
+        text-align: center;
+    }
+    
+    .price-increments>p{
+        text-align: left;
+        padding-left: 25px;
+    }
+    
+    .housing-disclaimer{
+        text-align: left;
+        letter-spacing: 0px;
+    }
+    
+
+    /*------------------------------------------*/
+    /*    Sign-Up Divider
+    /*------------------------------------------*/
+    .signup-divider{
+        text-align: left;
+    }
+
+    .signup-divider .form-group{
+        width: 80%;
+        margin-bottom: 15px;
+        margin-right: 0;
+        padding-left: 15px;
+    }
+
+    .signup-divider .btn{
+        width: 78%;
+        margin-left: 15px;
+    }
+
+    /*------------------------------------------*/
+    /*   Showcase Video Button
+    /*------------------------------------------*/
+    .showcase .video-player{
+        left: 51%;
+        top: 36%;
+    }
+
+    /*------------------------------------------*/
+    /*   Testimonial-Press Section
+    /*------------------------------------------*/
+    .testimonial-press .large{
+        margin-bottom: 30px;
+    }
+
+    /*------------------------------------------*/
+    /*    Team
+    /*------------------------------------------*/
+    .team .team-box{
+        margin-bottom: 30px;
+    }
+
+    .team .team-box:last-child{
+        margin-bottom: 0;
+    }
+
+    .team h4{
+        margin-bottom: 5px;
+    }
+
+    /*------------------------------------------*/
+    /*    Fast-reg Fixes
+    /*------------------------------------------*/
+    .header.fast-reg-img .overlay{
+        height: 650px;
+    }
+
+    .fast-reg .form-group{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .fast-reg .btn{
+        width: 80%;
+    }
+
+    .fast-reg-box{
+        margin-top: 20px;
+    }
+
+    /*------------------------------------------*/
+    /*   Header Slider
+    /*------------------------------------------*/
+    .slider-text{
+        display: inline;
+    }
+
+    .slider h1{
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    /*------------------------------------------*/
+    /*   Header Dashboard
+    /*------------------------------------------*/
+    .dashboard .hero-section{
+        padding-top: 25%;
+    }
+    
+    .mainsubhead {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    
+    h1.mainhead {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 0px; 
+        text-align: center;
+    }
+    
+    .mainheaddate {
+        font-size: 22px;
+    }
+    
+    .likeh4{
+    font-size: 18px;
+    line-height: 14px;
+    }
+    
+    .faq-sections {
+    font-size: 32px;
+    line-height: 26px;
+    padding-top: 30px;
+    }
+    
+    li.pt-zero {
+    font-size: 14px;
+    line-height: 18px;
+    }
+    
+    .general-description-spc {
+    font-size: 16px;
+}
+    
+        .general-description {
+    font-size: 16px;
+}
+    
+            .price-explain {
+        font-size: 16px;
+    line-height: 28px;
+    }
+    
+    h2.price-number {
+        font-size: 64px;
+        margin-top: 40px;  
+        margin-bottom: 10px;
+        text-shadow: none;
+        text-align: left;
+        padding-left: 25px;
+}
+    
+    h2.price-subhead {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: left;
+        padding-left: 25px;
+}
+    
+    .foundation-text{
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+}
+    
+    th.pricinghead {
+        font-size: 12px;
+        padding: 10px 6px;
+        line-height: 14px;
+}
+    
+    th.pricingtext {
+        line-height: 14px;
+        font-size: 12px;
+        padding: 8px 6px;
+}
+    
+   p.testimonial-text {
+        font-size: 14px;
+        line-height: 22px;
+       padding-bottom: 20px;
+} 
+    
+    a.btn.btn-cta2{
+        padding: 20px 20px;
+    }
+    
+    li.yes-list {
+        font-size: 18px;
+}
+    
+    li.more-list {
+        font-size: 18px;
+}
+    
+    a.accordion-toggle.likeh4 {
+        font-size: 18px;
+}
+    
+    h4.subheadabove {
+    padding-left: 25px;
+        margin-top: 10px;
+    margin-bottom: 0px;
+}
+    
+    
+    
+       	
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+@media (max-width: 479px) {
+    
+    img.headerLogo {
+        padding-top: 40px;
+        width: 190px;
+    }
+    
+    .mainsubhead {
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 600;
+    }
+    
+    .mainheaddate {
+        font-size: 17px;
+    }
+    
+    h4.nationality {
+        font-size: 11px;
+    }
+    
+    .hero-section {
+        text-align: center;
+    }
+    
+    h1.mainhead {
+        font-size: 31px;
+        text-align: center;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .price-increments>p  {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+
+    /*------------------------------------------*/
+    /*   Typography
+    /*------------------------------------------*/
+    h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    
+    .subheadabove{
+        font-size: 24px;
+    }
+    
+    .subheadbelow{
+        font-size: 24px;
+    }
+    
+    .pb40{
+        padding-bottom:20px;
+    }
+    
+    .intro-content{
+        padding-bottom: 20px;
+    }
+
+    .general-description{
+        font-size:14px;
+        line-height: 24px;
+    }
+    
+    .general-description-spc{
+        font-size:14px;
+        padding-bottom:0px;
+        line-height: 24px;
+    }
+    
+    .skinnerquote{
+        font-size:22px;
+    }
+    
+    .network-numbers {
+    font-size: 32px;
+}
+    
+    .btn{
+        padding: 14px 14px 13px 14px;
+    }
+    
+    .pbbuckets{
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.65);
+        border-radius: 5px;
+        margin: 10px 0px;
+        padding: 20px 10px;
+    }
+    
+    .pbbenefits{
+        text-align:left;
+    }
+    
+    .coretitles{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    
+    .mobile-pb0 {
+        padding-bottom:0px;
+    }
+    
+    .tcenter{
+        text-align: left;
+    }
+
+    
+    /*------------------------------------------*/
+    /*    Hero-Section
+    /*------------------------------------------*/
+    .hero-section .btn{
+        margin-bottom: 5px;
+    }
+
+    /*------------------------------------------*/
+    /*    Login/Signup Modal
+    /*------------------------------------------*/
+    .login .modal-dialog{
+        width: 80%;
+        margin: 90px auto;
+    }
+
+    /*------------------------------------------*/
+    /*   Showcase 
+    /*------------------------------------------*/
+    .showcase .video-player{
+        left: 50%;
+        top: 32%;
+        font-size: 45px;
+    }
+
+    .showcase .img-box{
+        margin-top: 30px;
+    }
+
+    /*------------------------------------------*/
+    /*    Sign-Up Divider
+    /*------------------------------------------*/
+    .signup-divider .btn{
+        width: 77%;
+    }
+
+    /*------------------------------------------*/
+    /*   Testimonial-Press Section
+    /*------------------------------------------*/
+    .testimonial-press{
+        height: 650px;
+    }
+
+    /*------------------------------------------*/
+    /*   Newsletter
+    /*------------------------------------------*/
+    .newsletter .input-group{
+        width: 100%;
+    }
+
+    /*------------------------------------------*/
+    /*   Charts
+    /*------------------------------------------*/
+    .line-canvas{
+        width:100%;
+    }
+
+    /*------------------------------------------*/
+    /*    Pricing
+    /*------------------------------------------*/
+    .pricing-tab {
+        max-width: 300px;
+    }
+
+    /*------------------------------------------*/
+    /*    Team
+    /*------------------------------------------*/
+    .team .team-img{
+        width:100%;
+        margin-bottom: 10px;
+    }
+
+    .team h4{
+        margin-bottom: 5px;
+    }
+
+    .team-img .img-icons span i{
+        font-size: 60px;
+        width: 60px;
+        height: 60px;
+        padding: 5%;
+    }
+
+    /*------------------------------------------*/
+    /*    Mobile-Download
+    /*------------------------------------------*/
+    .mobile-download .shot-container{
+        display:block;
+        margin-top: 50px;
+    }
+
+    .mobile-download .right-features {
+        display:block;
+    }
+
+    /*------------------------------------------*/
+    /*   Footer
+    /*------------------------------------------*/
+    .footer-cta .btn{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer-nav{
+        margin-top: 50px;
+    }
+
+    /*------------------------------------------*/
+    /*    Fast-reg Fixes
+    /*------------------------------------------*/
+    .fast-reg .large{
+        display: none;
+    }
+
+    /*------------------------------------------*/
+    /*   Header Slider
+    /*------------------------------------------*/
+    .slider h1{
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    /*------------------------------------------*/
+    /*   Header Dashboard
+    /*------------------------------------------*/
+    .dashboard .hero-section{
+        padding-top: 30%;
+    }
+
+    .image-dashboard {
+        padding-top: 40px;
+    }
+    
+        h3.teamname {
+    font-size: 16px;
+    margin-top: -18px;
+}
+
+    p.teaminfo {
+    font-size: 14px;
+    margin-top: -10px;
+    }
+    
+    .likeh4{
+    font-size: 14px;
+    line-height: 12px;
+    }
+    
+    .faq-sections {
+    font-size: 28px;
+    line-height: 20px;
+    padding-top: 30px;
+    }
+    
+    li.pt-zero {
+    font-size: 12px;
+    line-height: 16px;
+    }
+    
+            .price-explain {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    h2.price-number {
+        font-size: 64px;
+        margin-top: 40px;  
+        margin-bottom: 20px;
+        text-shadow: none;
+}
+    
+    h2.price-subhead {
+        font-size: 30px;
+        margin-bottom: 10px;
+}
+    
+    .foundation-text{
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 30px;
+        text-align: left;
+}
+    
+    th.pricinghead {
+        font-size: 12px;
+        padding: 10px 6px;
+        line-height: 14px;
+}
+    
+    th.pricingtext {
+        line-height: 14px;
+        font-size: 12px;
+        padding: 8px 6px;
+}
+    
+   p.testimonial-text {
+        font-size: 14px;
+        line-height: 22px;
+       padding-bottom: 20px;
+} 
+    
+    a.btn.btn-cta2{
+        padding: 20px 20px;
+    }
+    
+    li.yes-list {
+        font-size: 18px;
+}
+    
+    li.more-list {
+        font-size: 18px;
+}
+    
+    a.accordion-toggle.likeh4 {
+        font-size: 18px;
+}
+    
+}
+    
+
+@media (max-width: 380px) {
+    
+
+.hover_caption_caption {
+        font-size:10px !important;
+    }
+    
+img.headerLogo {
+    padding-top: 20px;
+    width: 150px;
+}
+    
+    h3.fellow-name {
+    font-size: 18px;
+    line-height: 20px;
+}
+    
+    .mainheaddate {
+    font-size: 15px;
+}
+    
+    h1.mainhead {
+    font-size: 23px;
+    text-align: center;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+    
+        .price-explain {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    h2.price-number {
+        font-size: 64px;
+        margin-top: 40px;  
+        margin-bottom: 20px;
+        text-shadow: none;
+        margin-left: 15px;
+        text-align: left;
+}
+    
+    h2.price-subhead {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        text-align: left;
+}
+    
+    .foundation-text{
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 30px;
+        text-align: left;
+}
+    
+    th.pricinghead {
+        font-size: 12px;
+        padding: 10px 6px;
+        line-height: 14px;
+}
+    
+    th.pricingtext {
+        line-height: 14px;
+        font-size: 12px;
+        padding: 8px 6px;
+}
+    
+   p.testimonial-text {
+        font-size: 14px;
+        line-height: 22px;
+       padding-bottom: 20px;
+} 
+    
+    a.btn.btn-cta2{
+        padding: 20px 20px;
+    }
+    
+    li.yes-list {
+        font-size: 16px;
+}
+    
+    li.more-list {
+        font-size: 16px;
+}
+    
+
+}
+
+@media (max-width: 322px) {
+
+    h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    
+    .accordion-inner li {
+        font-size: 14px;
+    }
+    
+    .mainsubhead {
+    font-size: 14px;
+    line-height: 19px;
+}
+    
+    .mainheaddate {
+    font-size: 14px;
+}
+    
+    .tab-content p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    
+    .network-numbers {
+        font-size: 22px;
+    }
+    
+    .pbbenefits {
+        font-size: 22px;
+    }
+    
+    .pbdescription{
+        font-size: 12px;
+    }
+    
+    
+.cta-iot {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-entrepreneur {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-alt-reality {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-fuelcells {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-biorem {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-blockchain {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-drones {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-mars {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-python {
+	font-size: 8px;
+    line-height: 11px;
+}
+
+.cta-philo {
+	font-size: 8px;
+    line-height: 11px;
+}
+    
+    h3.teamname {
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+    p.teaminfo {
+    font-size: 12px;
+    margin-top: -14px;
+    }
+    
+    .mainhead {
+        font-size: 42px;
+        padding-bottom:0px;
+    }
+    
+    .hover_caption_caption {
+        font-size:9px !important;
+    }
+    
+    .jobtitle{
+        font-size: 8px;
+    }
+    
+    .likeh4{
+        font-size: 14px;
+        line-height: 12px;
+    }
+    
+    .faq-sections {
+        font-size: 28px;
+        line-height: 20px;
+        padding-top: 30px;
+    }
+    
+    li.pt-zero {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    .price-explain {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    h2.price-number {
+        font-size: 64px;
+        margin-top: 40px;  
+        margin-bottom: 20px;
+        text-shadow: none;
+        margin-left: 15px;
+}
+    
+    h2.price-subhead {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+}
+    
+    .foundation-text{
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 30px;
+        text-align: left;
+}
+    
+    th.pricinghead {
+        font-size: 10px;
+        padding: 6px 6px;
+        line-height: 12px;
+}
+    
+    th.pricingtext {
+        line-height: 12px;
+        font-size: 11px;
+        padding: 6px 6px;
+}
+    
+   p.testimonial-text {
+        font-size: 12px;
+        line-height: 20px;
+       padding-bottom: 20px;
+} 
+    
+    
+}
+
